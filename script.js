@@ -1,5 +1,5 @@
-const PAYMENT_URL = "https://rzp.io/rzp/JaYffFXO";
-const EBOOK_DOWNLOAD_URL = "https://drive.google.com/file/d/1aFJ39yCBtOBdfreVkkfxv4JAJk5_Bjj7/view?usp=sharing";
+const PAYMENT_URL = "PAYMENT_URL_HERE";
+const EBOOK_DOWNLOAD_URL = "EBOOK_DOWNLOAD_URL_HERE";
 
 document.querySelectorAll("[data-purchase]").forEach((link) => {
   link.href = PAYMENT_URL;
